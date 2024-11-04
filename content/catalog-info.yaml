@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: ${{ values.name | dump }}
   annotations:
-    github.com/project-slug: samgabrail/aws-eks
-    # github.com/project-slug: samgabrail/${{ values.name }}
+    github.com/project-slug: cp1408/aws-eks
+    # github.com/project-slug: cp1408/${{ values.name }}
   description: ${{ values.name }} running on AWS EKS cluster managed by Terraform
 spec:
   type: service
